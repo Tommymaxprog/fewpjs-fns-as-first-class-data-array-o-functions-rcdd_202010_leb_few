@@ -32,9 +32,8 @@ function unleashDog(dogName="Byron", dogBreed="poodle") {
 }
 let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleasDog];
 function exerciseDog(dogName, dogBreed){
-  let result=[];
-  for (const functions of routine)
-  {result[functions]=routine[functions](dogName, dogBreed);
+  
+    {return routine.map(function => funtion(dog, breed))
   
   }
   
