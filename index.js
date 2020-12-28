@@ -20,18 +20,18 @@ function throwFrisbee(dogName="Byron", dogBreed="poodle") {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogName} the ${dogBreed}`;
 }
-function walkHome(dogName, dogBreed) {
+function walkHome(dogName="Byron", dogBreed="poodle") {
   let activity="Walk home with ${dogName} the ${dogBreed}";
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
   return activity;
 }
-function unleashDog(dogName, dogBreed) {
+function unleashDog(dogName="Byron", dogBreed="poodle") {
   let activity="Unleash ${dogName} the ${dogBreed}";
   console.log(`Unleash ${dogName} the ${dogBreed}`);
   return activity;
 }
 let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleasDog];
-function exerciseDog(dogName, dogBreed){
+function exerciseDog(dogName="Byron", dogBreed="poodle"){
   
   for (const functions of routine)
   {routine[functions](dogName, dogBreed);
