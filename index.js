@@ -34,7 +34,7 @@ let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleasDog];
 function exerciseDog(dogName, dogBreed){
   let result=[];
   for (const functions of routine)
-  {resuroutine[functions](dogName, dogBreed);
+  {result[functions]=routine[functions](dogName, dogBreed);
   
   }
   
