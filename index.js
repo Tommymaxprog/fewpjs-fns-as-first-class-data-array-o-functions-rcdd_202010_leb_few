@@ -1,4 +1,4 @@
-function wakeDog(dogName, dogBreed) {
+function wakeDog(dogName="Byron", dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
   let activity="Wake the "+dogName+" the "+dogBreed;
   return activity; 
