@@ -28,7 +28,7 @@ function walkHome(dogName="Byron", dogBreed="poodle") {
 function unleashDog(dogName="Byron", dogBreed="poodle") {
   let activity="Unleash ${dogName} the ${dogBreed}";
   console.log(`Unleash ${dogName} the ${dogBreed}`);
-  return activity;
+  return `Unleash ${dogName} the ${dogBreed}`;
 }
 let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleasDog];
 function exerciseDog(dogName="Byron", dogBreed="poodle"){
