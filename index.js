@@ -10,10 +10,10 @@ function leashDog(dogName="Byron", dogBreed="poodle") {
   console.log(`Leash ${dogName} the ${dogBreed}`);
   return activity;
 }
-function walkToPark(dogName, dogBreed) {
+function walkToPark(dogName="Byron", dogBreed="poodle") {
   let activity="`Walk to the park with ${dogName} the ${dogBreed}";
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
-  return activity;
+  return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 function throwFrisbee(dogName, dogBreed) {
   let activity="Throw the frisbee for ${dogName} the ${dogBreed}";
