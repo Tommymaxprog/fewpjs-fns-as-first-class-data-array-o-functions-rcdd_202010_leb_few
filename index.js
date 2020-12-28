@@ -31,7 +31,7 @@ function unleashDog(dogName="Byron", dogBreed="poodle") {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleasDog];
-function exerciseDog(dogName="Byron", dogBreed="poodle"){
+function exerciseDog(dogName, dogBreed){
   
   for (const functions of routine)
   {routine[functions](dogName, dogBreed);
