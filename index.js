@@ -29,11 +29,8 @@ function unleashDog(dogName="Byron", dogBreed="poodle") {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
   return `Unleash ${dogName} the ${dogBreed}`;
 }
-let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleasDog];
-function exerciseDog(dogName, dogBreed){
-  
-    return routine.map(funct => funct(dogName, dogBreed))
-  
-  
-  
+const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+
+function exerciseDog(dogName, dogBreed) {
+  return routine.map(funct => fn(dog, breed))
 }
