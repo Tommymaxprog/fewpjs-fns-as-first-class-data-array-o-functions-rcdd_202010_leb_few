@@ -35,7 +35,7 @@ function exerciseDog(dogName, dogBreed){
   
   for (const functions of routine)
   {routine[functions](dogName, dogBreed);
-  return(routine[functions]);
+  
   }
   
 }
