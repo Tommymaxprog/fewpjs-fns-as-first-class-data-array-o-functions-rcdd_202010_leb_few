@@ -2,13 +2,12 @@ function wakeDog(dogName="Byron", dogBreed="poodle") {
   console.log(`Wake ${dogName} the ${dogBreed}`);
     return  `Wake ${dogName} the ${dogBreed}`
 }
-let name="Xerox";
-let breed="Border Collie"
-wakeDog(name,breed);
+
+
 function leashDog(dogName="Byron", dogBreed="poodle") {
   let activity="Leash ${dogName} the ${dogBreed}";
   console.log(`Leash ${dogName} the ${dogBreed}`);
-  return activity;
+  return `Leash ${dogName} the ${dogBreed}`;
 }
 function walkToPark(dogName="Byron", dogBreed="poodle") {
   let activity="`Walk to the park with ${dogName} the ${dogBreed}";
